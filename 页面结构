@@ -1,0 +1,33 @@
+html
+ |
+ |-- head
+ |   |
+ |   |---meta,title,link,script
+ |
+ |-- body
+     |
+     |--- views    //Views 是你的应用主容器。一个应用中只能有一个 Views
+     |    |
+     |    |
+     |    |--- view  //所有的可见 View 都应该放在 Views ,主视图需要添加view-main类,包含一组页面(pages).可以有多个
+     |         |
+     |         |
+     |         |--- pages  //每一个 Page 都应该放在 Pages 容器中
+     |         |    |
+     |         |    |
+     |         |    |--- page   //页面
+     |         |         |
+     |         |         |
+     |         |         |--- navbar   //导航栏
+     |         |         |
+     |         |         |--- page-content  //页面主体
+     |         |         |
+     |         |         |--- toolbar  //底部工具栏
+     |         |
+     |         |--- popup
+     |                |
+     |                |--- view popup-vie
+     |
+     |
+     |
+     |---script
